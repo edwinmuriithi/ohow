@@ -2171,7 +2171,10 @@ hr {
 }
 
 .blog_item_img {
-    position: relative
+    position: relative;
+    width: 100%; 
+    max-width: 100%;
+    height: auto;
 }
 
 .blog_item_img .blog_item_date {
@@ -4118,9 +4121,5 @@ del {
     cursor: pointer;
     border-radius: 5px;
 }
-.blog_item_img img {
-    width: 100%; 
-    max-width: 100%;
-    height: auto;
-}
+
 
