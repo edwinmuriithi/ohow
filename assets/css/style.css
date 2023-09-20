@@ -4118,5 +4118,8 @@ del {
     cursor: pointer;
     border-radius: 5px;
 }
-
+.blog_item_img img {
+    width: 800px; /* Set the width to your desired size, e.g., 300px */
+    height: 500px; /* Set the height to your desired size, e.g., 200px */
+}
 
