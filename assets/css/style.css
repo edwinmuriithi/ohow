@@ -340,6 +340,12 @@ hr {
         padding-top: 100px;
         padding-bottom: 100px
     }
+    .ftco-section {
+        padding: 6em 0;
+    }
+    .ftco-no-pb {
+        padding-bottom: 0 !important;
+    }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -347,12 +353,18 @@ hr {
         padding-top: 70px;
         padding-bottom: 70px
     }
+    .ftco-section {
+        padding: 6em 0;
+    }
 }
 
 @media (max-width: 575px) {
     .section-padding {
         padding-top: 70px;
         padding-bottom: 70px
+    }
+       .ftco-section {
+        padding: 6em 0;
     }
 }
 
@@ -2401,6 +2413,7 @@ hr {
     margin-left: -6px
 }
 
+
 .blog_right_sidebar .instagram_feeds .instagram_row li {
     width: 33.33%;
     float: left;
@@ -4123,3 +4136,22 @@ del {
 }
 
 
+.ftco-section-parallax {
+    position: relative;
+}
+
+.ftco-section-parallax .parallax-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    padding: 4em 0;
+}
+
+.ftco-section-parallax .heading-section-white h2 {
+    font-weight: 400 !important;
+}
+.ftco-section {
+    padding: 7em 0;
+    position: relative;
+}
