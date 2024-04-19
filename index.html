@@ -10,7 +10,8 @@
   <meta name="description" content>
   <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <link rel="shortcut icon" type="image/x-icon" href="assets/img/icon/favicon.png">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/owl.carousel@2.3.4/dist/assets/owl.carousel.min.css">
@@ -23,21 +24,24 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nice-select@1.1.0/css/nice-select.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
   <header>
     <div class="header-area">
       <div class="main-header ">
-        <div class="header-top d-none d-sm-block">
+        <div class="header-top d-sm-block">
           <div class="container-fluid">
             <div class="row">
               <div class="col-xl-12">
-                <div class="d-flex justify-content-between flex-wrap align-items-center">
+                <div class="" id="first-nav">
                   <div class="header-info-left">
                     <ul>
-                      <li><i class="fas fa-phone-alt"></i> +254100743586</li>
+                      <li class="d-flex "><i class="fas fa-phone-alt"></i> <p></p>+254100743586</li>
                       <!-- <li><a href="/cdn-cgi/l/email-protection" class="__cf_email__"
                           data-cfemail="573e393138796e6717343f36253e2332257934383a">[email&#160;protected]</a></li> -->
                     </ul>
@@ -66,8 +70,60 @@
                 </div>
               </div>
               <div class="col-xl-10 col-lg-10">
-                <div class="main-menu f-right d-block d-lg-none"> <!-- Show on small screens -->
-                  <nav>
+                <div class="main-menu d-block d-lg-none"> <!-- Show on small screens -->
+                  <nav class="navbar navbar-inverse" style="background-color: white;border: none;">
+                    <div class="container-fluid">
+                      <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" >
+                          <span class="icon-bar" ></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>                        
+                        </button>
+                        <a class="navbar-brand" href="#">MENU</a>
+                      </div>
+                      <div class="collapse navbar-collapse" id="myNavbar">
+                       
+                        <!-- <ul class="nav navbar-nav navbar-right">
+                          <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                        </ul> -->
+                        <ul class="nav navbar-nav navbar-right flex">
+                          <li><a href="index.html">Home</a></li>
+                          <li class="dropdown" ><a  class="dropdown-toggle" data-toggle="dropdown">Our Work</a>
+                            <ul class="menu-drop dropdown-menu">
+                              <li><a href="">Food Systems</a></li>
+                              <li><a href="">Environment: Habitats and Ecosystem</a>
+                              <li><a href="">Community Engagement</a></li>
+                              <li><a href="">Legal and Policy</a></li>
+                            </ul>
+                          </li>
+                          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="blog.html">Media and Publications</a>
+                            <ul class="menu-drop dropdown-menu">
+                              <li><a href="">In the news</a></li>
+                              <li><a href="">Press releases</a></li>
+                              <li><a href="">Newsletters</a></li>
+                              <li><a href="">Annual Reports</a></li>
+                              <li><a href="">Gallery</a></li>
+                              <li><a href="blog.html">Blog</a></li>
+                              <li><a href="">Resources</a></li>
+                            </ul>
+                          </li>
+                      
+                          <li class="dropdown" ><a class="dropdown-toggle" data-toggle="dropdown" href="about.html">About</a>
+                            <ul class="menu-drop dropdown-menu">
+                              <li><a href="meetceo.html">Meet the CEO</a></li>
+                            </ul>
+                            </li>
+                          <li><a href="contact.html">Contact</a></li>
+                          <li>
+                              <div class="header-right-btn f-right ml-15">
+                              </div>
+                          </li>
+                      </ul>
+                      </div>
+                    </div>
+                  </nav>
+                  <!-- <nav>
                       <ul id="navigation">
                           <li><a href="index.html">Home</a></li>
                           <li><a href="cases.html">Our Work</a>
@@ -98,11 +154,10 @@
                           <li><a href="contact.html">Contact</a></li>
                           <li>
                               <div class="header-right-btn f-right ml-15">
-                                  <!-- Your additional content here -->
                               </div>
                           </li>
                       </ul>
-                  </nav>
+                  </nav> -->
               </div>
                 <div class="main-menu f-right d-none d-lg-block">
                   <nav>
@@ -773,6 +828,7 @@
     integrity="sha512-bjgnUKX4azu3dLTVtie9u6TKqgx29RBwfj3QXYt5EKfWM/9hPSAI/4qcV5NACjwAo8UtTeWefx6Zq5PHcMm7Tg=="
     data-cf-beacon='{"rayId":"7fec91f4dd200dbd","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2023.8.0","si":100}'
     crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 
 </html>
